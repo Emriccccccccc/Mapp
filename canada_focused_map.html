@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_32dc9bc2a4f0e1791ed43635917fe660 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_32dc9bc2a4f0e1791ed43635917fe660" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_32dc9bc2a4f0e1791ed43635917fe660 = L.map(
+                "map_32dc9bc2a4f0e1791ed43635917fe660",
+                {
+                    center: [48.0, -84.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bf97c16357e8ad0398553daad8f6b856 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+            var marker_101e1e8de169d0c09f8ef1f14b43509a = L.marker(
+                [45.4215, -75.6972],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_077ebba684edecc52cda753a7a45bd85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e5ea95e1920f6618e18f80621fd94a8 = $(`<div id="html_1e5ea95e1920f6618e18f80621fd94a8" style="width: 100.0%; height: 100.0%;">Ottawa, ON</div>`)[0];
+            popup_077ebba684edecc52cda753a7a45bd85.setContent(html_1e5ea95e1920f6618e18f80621fd94a8);
+        
+
+        marker_101e1e8de169d0c09f8ef1f14b43509a.bindPopup(popup_077ebba684edecc52cda753a7a45bd85)
+        ;
+
+        
+    
+    
+            marker_101e1e8de169d0c09f8ef1f14b43509a.bindTooltip(
+                `<div>
+                     Ottawa, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a331827fc23d9b97303968ee435970fa = L.marker(
+                [46.3091, -79.4608],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_264da874942299527a4bb2704035c431 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b483dd4917259fa028a6dfb6e6f8c313 = $(`<div id="html_b483dd4917259fa028a6dfb6e6f8c313" style="width: 100.0%; height: 100.0%;">North Bay, ON</div>`)[0];
+            popup_264da874942299527a4bb2704035c431.setContent(html_b483dd4917259fa028a6dfb6e6f8c313);
+        
+
+        marker_a331827fc23d9b97303968ee435970fa.bindPopup(popup_264da874942299527a4bb2704035c431)
+        ;
+
+        
+    
+    
+            marker_a331827fc23d9b97303968ee435970fa.bindTooltip(
+                `<div>
+                     North Bay, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22350acd100e5ce1258ca58464993fef = L.marker(
+                [46.4905, -81.0109],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_7c64e96f27c42d4bfe35354019752688 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e61a678e0fbb3a32bacfdac5c58134c9 = $(`<div id="html_e61a678e0fbb3a32bacfdac5c58134c9" style="width: 100.0%; height: 100.0%;">Sudbury, ON</div>`)[0];
+            popup_7c64e96f27c42d4bfe35354019752688.setContent(html_e61a678e0fbb3a32bacfdac5c58134c9);
+        
+
+        marker_22350acd100e5ce1258ca58464993fef.bindPopup(popup_7c64e96f27c42d4bfe35354019752688)
+        ;
+
+        
+    
+    
+            marker_22350acd100e5ce1258ca58464993fef.bindTooltip(
+                `<div>
+                     Sudbury, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5ba7b1682da8194d1990d91e67c9431 = L.marker(
+                [45.6202, -74.6042],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_699265f0a52b7842f3d9b27a201451bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_081b746caebe67ae0ce182c8bbdb40f2 = $(`<div id="html_081b746caebe67ae0ce182c8bbdb40f2" style="width: 100.0%; height: 100.0%;">Chute-à-Blondeau, ON</div>`)[0];
+            popup_699265f0a52b7842f3d9b27a201451bc.setContent(html_081b746caebe67ae0ce182c8bbdb40f2);
+        
+
+        marker_a5ba7b1682da8194d1990d91e67c9431.bindPopup(popup_699265f0a52b7842f3d9b27a201451bc)
+        ;
+
+        
+    
+    
+            marker_a5ba7b1682da8194d1990d91e67c9431.bindTooltip(
+                `<div>
+                     Chute-à-Blondeau, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88f7518e2e0acfaa3d61486f79fc0a2a = L.marker(
+                [45.5171, -74.6526],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_32ad27a4b3430a18086009212a8f05b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2cf9d570ae1a065cbda0fac8d4bf4da = $(`<div id="html_a2cf9d570ae1a065cbda0fac8d4bf4da" style="width: 100.0%; height: 100.0%;">Vankleek Hill, ON</div>`)[0];
+            popup_32ad27a4b3430a18086009212a8f05b0.setContent(html_a2cf9d570ae1a065cbda0fac8d4bf4da);
+        
+
+        marker_88f7518e2e0acfaa3d61486f79fc0a2a.bindPopup(popup_32ad27a4b3430a18086009212a8f05b0)
+        ;
+
+        
+    
+    
+            marker_88f7518e2e0acfaa3d61486f79fc0a2a.bindTooltip(
+                `<div>
+                     Vankleek Hill, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2002d79f9ff32a91799f835c5054fc1d = L.marker(
+                [45.6071, -74.6042],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_c62349f75eb3415845d12e5547ede5bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_188964a19637d1e570c52d903548eef0 = $(`<div id="html_188964a19637d1e570c52d903548eef0" style="width: 100.0%; height: 100.0%;">Hawkesbury, ON</div>`)[0];
+            popup_c62349f75eb3415845d12e5547ede5bd.setContent(html_188964a19637d1e570c52d903548eef0);
+        
+
+        marker_2002d79f9ff32a91799f835c5054fc1d.bindPopup(popup_c62349f75eb3415845d12e5547ede5bd)
+        ;
+
+        
+    
+    
+            marker_2002d79f9ff32a91799f835c5054fc1d.bindTooltip(
+                `<div>
+                     Hawkesbury, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67482572ba870c5d5ee99f1274cf2cb1 = L.marker(
+                [45.3114, -74.6364],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_aab9833f768ef98ec140940a120f7a4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d4b5d77d4886df4f27ccbed68fe4671 = $(`<div id="html_6d4b5d77d4886df4f27ccbed68fe4671" style="width: 100.0%; height: 100.0%;">Alexandria, ON</div>`)[0];
+            popup_aab9833f768ef98ec140940a120f7a4a.setContent(html_6d4b5d77d4886df4f27ccbed68fe4671);
+        
+
+        marker_67482572ba870c5d5ee99f1274cf2cb1.bindPopup(popup_aab9833f768ef98ec140940a120f7a4a)
+        ;
+
+        
+    
+    
+            marker_67482572ba870c5d5ee99f1274cf2cb1.bindTooltip(
+                `<div>
+                     Alexandria, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22a103cc86c6b01b1be2bb897fdf1ad5 = L.marker(
+                [45.3135, -75.0895],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_97300dd888dfac847e2c3c3e77bfec22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbe2ea8c5f40b7470509ec2507198512 = $(`<div id="html_dbe2ea8c5f40b7470509ec2507198512" style="width: 100.0%; height: 100.0%;">Casselman, ON</div>`)[0];
+            popup_97300dd888dfac847e2c3c3e77bfec22.setContent(html_dbe2ea8c5f40b7470509ec2507198512);
+        
+
+        marker_22a103cc86c6b01b1be2bb897fdf1ad5.bindPopup(popup_97300dd888dfac847e2c3c3e77bfec22)
+        ;
+
+        
+    
+    
+            marker_22a103cc86c6b01b1be2bb897fdf1ad5.bindTooltip(
+                `<div>
+                     Casselman, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e34f3cfcecc0aacabfa42579ef9fb18 = L.marker(
+                [45.2978, -75.2505],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_330dcc37f81088d0d58a139dd9138112 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ef6bc7a0dc989b7e30aee1f762854ac = $(`<div id="html_0ef6bc7a0dc989b7e30aee1f762854ac" style="width: 100.0%; height: 100.0%;">Vars, ON</div>`)[0];
+            popup_330dcc37f81088d0d58a139dd9138112.setContent(html_0ef6bc7a0dc989b7e30aee1f762854ac);
+        
+
+        marker_3e34f3cfcecc0aacabfa42579ef9fb18.bindPopup(popup_330dcc37f81088d0d58a139dd9138112)
+        ;
+
+        
+    
+    
+            marker_3e34f3cfcecc0aacabfa42579ef9fb18.bindTooltip(
+                `<div>
+                     Vars, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afcf31d0e219b8d0a7933dae493569ff = L.marker(
+                [45.2754, -75.282],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_58e1171024a7b239e7e30786e54c7a4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_096aafe53c6fb4e5c520e337576cf945 = $(`<div id="html_096aafe53c6fb4e5c520e337576cf945" style="width: 100.0%; height: 100.0%;">Embrun, ON</div>`)[0];
+            popup_58e1171024a7b239e7e30786e54c7a4b.setContent(html_096aafe53c6fb4e5c520e337576cf945);
+        
+
+        marker_afcf31d0e219b8d0a7933dae493569ff.bindPopup(popup_58e1171024a7b239e7e30786e54c7a4b)
+        ;
+
+        
+    
+    
+            marker_afcf31d0e219b8d0a7933dae493569ff.bindTooltip(
+                `<div>
+                     Embrun, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ddc92edd298e1bc29ace7fe486aa402b = L.marker(
+                [45.8267, -77.1109],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_8f3b8a7489b8c0aa1f9d4b9902dfff95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f05ff85cd3d0d890efe97a54ef11ee83 = $(`<div id="html_f05ff85cd3d0d890efe97a54ef11ee83" style="width: 100.0%; height: 100.0%;">Pembroke, ON</div>`)[0];
+            popup_8f3b8a7489b8c0aa1f9d4b9902dfff95.setContent(html_f05ff85cd3d0d890efe97a54ef11ee83);
+        
+
+        marker_ddc92edd298e1bc29ace7fe486aa402b.bindPopup(popup_8f3b8a7489b8c0aa1f9d4b9902dfff95)
+        ;
+
+        
+    
+    
+            marker_ddc92edd298e1bc29ace7fe486aa402b.bindTooltip(
+                `<div>
+                     Pembroke, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe52b89e29252506be02f30a82de75f1 = L.marker(
+                [46.0953, -77.4928],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_81a9f5a301ea9ee47403c7babe256f05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a51882ce9424568720ac291ae8684116 = $(`<div id="html_a51882ce9424568720ac291ae8684116" style="width: 100.0%; height: 100.0%;">Deep River, ON</div>`)[0];
+            popup_81a9f5a301ea9ee47403c7babe256f05.setContent(html_a51882ce9424568720ac291ae8684116);
+        
+
+        marker_fe52b89e29252506be02f30a82de75f1.bindPopup(popup_81a9f5a301ea9ee47403c7babe256f05)
+        ;
+
+        
+    
+    
+            marker_fe52b89e29252506be02f30a82de75f1.bindTooltip(
+                `<div>
+                     Deep River, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfb97b565668368874f5fe7e8fd60032 = L.marker(
+                [46.3172, -78.7028],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_f577f02d9c4e04e02a270000ccbf6972 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f578ae1a9fc140aa0ba8e802b9d22907 = $(`<div id="html_f578ae1a9fc140aa0ba8e802b9d22907" style="width: 100.0%; height: 100.0%;">Mattawa, ON</div>`)[0];
+            popup_f577f02d9c4e04e02a270000ccbf6972.setContent(html_f578ae1a9fc140aa0ba8e802b9d22907);
+        
+
+        marker_dfb97b565668368874f5fe7e8fd60032.bindPopup(popup_f577f02d9c4e04e02a270000ccbf6972)
+        ;
+
+        
+    
+    
+            marker_dfb97b565668368874f5fe7e8fd60032.bindTooltip(
+                `<div>
+                     Mattawa, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f2a64a50b655e9532056444c9643a55 = L.marker(
+                [46.3636, -79.9329],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_93284009e2ed3e2cba6bfaec77cb2c32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b99d7b6f07dc8102e725d497c30f70c8 = $(`<div id="html_b99d7b6f07dc8102e725d497c30f70c8" style="width: 100.0%; height: 100.0%;">Sturgeon Falls, ON</div>`)[0];
+            popup_93284009e2ed3e2cba6bfaec77cb2c32.setContent(html_b99d7b6f07dc8102e725d497c30f70c8);
+        
+
+        marker_3f2a64a50b655e9532056444c9643a55.bindPopup(popup_93284009e2ed3e2cba6bfaec77cb2c32)
+        ;
+
+        
+    
+    
+            marker_3f2a64a50b655e9532056444c9643a55.bindTooltip(
+                `<div>
+                     Sturgeon Falls, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f95ae9097877a2c6da1777ac09781bc6 = L.marker(
+                [46.4092, -80.0873],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_bc49560f122c9f71b1b74b5a69041db7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70b8d6e1e51fd29fd75512e0f58a238a = $(`<div id="html_70b8d6e1e51fd29fd75512e0f58a238a" style="width: 100.0%; height: 100.0%;">Verner, ON</div>`)[0];
+            popup_bc49560f122c9f71b1b74b5a69041db7.setContent(html_70b8d6e1e51fd29fd75512e0f58a238a);
+        
+
+        marker_f95ae9097877a2c6da1777ac09781bc6.bindPopup(popup_bc49560f122c9f71b1b74b5a69041db7)
+        ;
+
+        
+    
+    
+            marker_f95ae9097877a2c6da1777ac09781bc6.bindTooltip(
+                `<div>
+                     Verner, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abf6719413f107dbddb4f2584f96e4be = L.marker(
+                [46.3622, -79.9613],
+                {}
+            ).addTo(map_32dc9bc2a4f0e1791ed43635917fe660);
+        
+    
+        var popup_bffc116b4f308fa2d4ef7783e1f8763f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e20d568953432b07395c34ef74d2291 = $(`<div id="html_1e20d568953432b07395c34ef74d2291" style="width: 100.0%; height: 100.0%;">Cache Bay, ON</div>`)[0];
+            popup_bffc116b4f308fa2d4ef7783e1f8763f.setContent(html_1e20d568953432b07395c34ef74d2291);
+        
+
+        marker_abf6719413f107dbddb4f2584f96e4be.bindPopup(popup_bffc116b4f308fa2d4ef7783e1f8763f)
+        ;
+
+        
+    
+    
+            marker_abf6719413f107dbddb4f2584f96e4be.bindTooltip(
+                `<div>
+                     Cache Bay, ON
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
